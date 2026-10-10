@@ -16,7 +16,7 @@
   "build": {
     "appId": "com.jeep01.colorwriter",
     "productName": "ColorWriter",
-    "files": ["index.html", "main.js", "preload.js", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon.ico"],
+    "files": ["index.html", "main.js", "preload.js", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "icon.ico"],
     "win": { "target": "nsis", "icon": "icon.ico" },
     "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true, "createStartMenuShortcut": true },
     "fileAssociations": [{ "ext": "docx", "name": "Word document", "role": "Editor" }]
